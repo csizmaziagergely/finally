@@ -1,15 +1,7 @@
 {
-    "hooks": {
-        "Stop": [
-            {
-                "hooks": [
-                    {
-                        "type": "agent",
-                        "prompt": "Carry out a review of all changes since last commit and write results to the end of a file named planning/REVIEW.md",
-                        "timeout": 240
-                    }
-                ]
-            }
-        ]
-    }
+  "enabledPlugins": {
+    "frontend-design@claude-plugins-official": true,
+    "context7@claude-plugins-official": true,
+    "playwright@claude-plugins-official": true
+  }
 }
